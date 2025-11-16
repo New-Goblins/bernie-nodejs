@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bernie-nodejs
+  description: bernie-nodejs - Node.js application
+  annotations:
+    github.com/project-slug: New-Goblins/bernie-nodejs
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
